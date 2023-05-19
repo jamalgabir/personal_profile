@@ -1,0 +1,25 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+.header1{
+    flex: 1;
+    border: 1px solid gray;
+
+}
+.header3{
+    flex: 1;
+    border: 1px solid gray;}
+    
+.sidebar-menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+   
+}
+.sidebar-menu li {
+    text-decoration: none;
+    margin: 10px;
+}
