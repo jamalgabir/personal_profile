@@ -1,0 +1,50 @@
+
+.project-img{
+    width: 100%;
+  height: auto;
+}
+.project-title{
+  text-align: center;
+}
+.project-container{
+    width: 100%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.project-item{
+    border: 1px solid #ccc;
+    width: 200px;
+    
+    padding: 10px;
+    background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    
+    
+    
+}
+.pro-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    height: 50px;
+    font-size: 16px;
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.icon{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
