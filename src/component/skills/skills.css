@@ -1,0 +1,22 @@
+.skill-item{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ border: 1px solid gray;
+ background-color: rgb(43, 43, 43);
+ color: white;
+}
+.skill-img{
+    
+    width: 250px;
+    height: 250px;
+
+}
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}

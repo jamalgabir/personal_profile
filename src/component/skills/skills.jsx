@@ -1,6 +1,8 @@
 import React  from 'react';
-
-import "./skills.css"
+import nodeimg from "../imges/nodejs.png";
+import htmlimg from "../imges/html.png";
+import cssimg from "../imges/css.png";
+import "./skills.css";
 const Skills = () => {
     
 
@@ -9,16 +11,49 @@ const Skills = () => {
         <h3>My skills</h3>
         <div className="skills-container">
             <div className="skill-item">
+                <div className="skill-imges">
+                  <img src={nodeimg} alt="" className="skill-img" />
+                </div>
+                <p>Javascript</p>
                 
-                Javascript</div>
+                </div>
             <div className="skill-item">
+                <div className="skill-imges">
+                  <img src="" alt="" className="skill-img" />
+                </div>
+                <p>React.js</p>
                 
-                React.js</div>
-            <div className="skill-item">NODE.JS</div>
-            <div className="skill-item">MONGODB</div>
-            <div className="skill-item">SQL</div>
-            <div className="skill-item">HTML</div>
-            <div className="skill-item">CSS</div>
+                </div>
+            <div className="skill-item">
+              <div className="skill-imges">
+                  <img src={nodeimg} alt="" className="skill-img" />
+                </div>
+                <p>NODE.JS</p>
+              </div>
+            <div className="skill-item">
+              <div className="skill-imges">
+                  <img src="" alt="" className="skill-img" />
+                </div>
+                <p>MONGODB</p>
+               </div>
+            <div className="skill-item">
+              <div className="skill-imges">
+                  <img src="" alt="" className="skill-img" />
+                </div>
+                <p>SQL</p>
+              </div>
+            <div className="skill-item">
+              <div className="skill-imges">
+                  <img src={htmlimg} alt="" className="skill-img" />
+                </div>
+                <p>HTML</p>
+              </div>
+            <div className="skill-item">
+              <div className="skill-imges">
+                  <img src={cssimg} alt="" className="skill-img" />
+                </div>
+                <p>CSS</p>
+              </div>
         </div>
         
          
