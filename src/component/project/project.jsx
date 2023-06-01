@@ -18,7 +18,7 @@ const project = () => {
   return (
     <div className='project-contianer'>
        <h3 className='project-title'>My projects</h3>
-       <Slider {...settings}>
+       <div className="project-container2">
         {Data.map((item)=>(
             <div className="project-item">
                <img className='project-img' src={img} alt="item" />
@@ -34,7 +34,8 @@ const project = () => {
                
             </div>
         ))}
-       </Slider>
+        </div>
+       
     </div>
   )
 }

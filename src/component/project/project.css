@@ -6,23 +6,31 @@
 .project-title{
   text-align: center;
 }
-.project-container{
-    width: 100%;
+.project-container2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
     background-color: #f4f4f4;
 }
 .project-item{
     border: 1px solid #ccc;
     width: 200px;
-    
+    margin: 10px;
     padding: 10px;
     background-color: #fff;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
+   transition: all 0.5s ease-in-out;
     
     
+    
+}
+.project-item:hover{
+    transform: scale(1.1);
     
 }
 .pro-info{
@@ -31,6 +39,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 
 .btn{
     height: 50px;

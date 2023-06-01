@@ -20,20 +20,7 @@
         title:"Blug app",
         desc:"you can see my ecommerce app"
     },
-    {
-        id:4,
-        img:"",
-        url:"",
-        title:"Ecommerce app",
-        desc:"you can see my ecommerce app"
-    },
-    {
-        id:5,
-        img:"",
-        url:"",
-        title:"Ecommerce app",
-        desc:"you can see my ecommerce app"
-    },
+    
 ];
 
 export default  projects
